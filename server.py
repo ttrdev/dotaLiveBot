@@ -1,6 +1,8 @@
 import os
 from flask import Flask, request
 import telebot
+import requests
+from bs4 import BeautifulSoup as bs
 
 TOKEN = "722609891:AAFwK2SXbq5Kj9UlTKxFp0_6FzKq8KQmN1U"
 bot = telebot.TeleBot(TOKEN)
